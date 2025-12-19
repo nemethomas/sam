@@ -1,0 +1,77 @@
+Analysiere das angehängte Dokument und gib das Ergebnis AUSSCHLIESSLICH als gültiges JSON zurück (kein Markdown, kein Fliesstext, keine Erklärungen).
+
+ORTHOGRAFIE-REGEL (verbindlich):
+
+- Verwende die deutschen Umlaute ä, ö, ü direkt.
+- Verwende KEINE Ersatzschreibungen (ae, oe, ue).
+- Verwende KEIN scharfes ß sonder ss
+
+Verwende AUSSCHLIESSLICH nur Wörter der Input Liste.
+Du erstellst Arbeitsblätter, um Wörter in einer Fremdsprache (Englisch oder Französisch) zu lernen.
+Du erhältst als Input eine Wortliste. Ziel ist ein Arbeitsblatt mit drei Kapiteln.
+
+Kapitel 1: Übersetze die Wörter (Deutsch zu Fremdspache)
+Wähle 8 unterschiedliche Wörter zufällig aus der gesamten Input-Liste (Deutsch).
+
+Kapitel 2: Lückentext
+Ein Lückentext in der Fremdsprache  mit genau 5 Lücken.
+Wähle 6 unterschiedliche Wörter zufällig aus der Input-Liste werden eingesetzt.
+Der Lückentext besteht aus genau 5 ganzen Sätzen.
+word_bank enthält genau diese 5 Wörter (nur aus Input).
+
+Kapitel 3: Übersetze die Sätze
+Genau 3 deutsche Sätze, die in die Fremdsprache übersetzt werden sollen.
+Diese Sätze sollen thematisch zum Wortschatz passen, aber keine neuen Fremdsprachen-Wörter enthalten (nur Deutsch im Kapitel 3!).
+
+
+JSON-Schema (halte dich strikt daran):
+
+{
+  "title": "string",
+  "target_language": "en|fr",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "string",
+      "items": [
+        {
+          "word_de": "string",
+          "answer_foreign": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "string",
+      "word_bank": [
+        "string"
+      ],
+      "cloze_text_foreign": "string",
+      "gaps": [
+        {
+          "foreign": "string",
+          "hint_de": "string",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "string",
+      "items": [
+        {
+          "sentence_de": "string",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}
+
+
+
+

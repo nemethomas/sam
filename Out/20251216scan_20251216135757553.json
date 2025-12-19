@@ -1,0 +1,107 @@
+{
+  "title": "Class vocabulary Unit 2",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Uebersetze die folgenden englischen Woerter ins Deutsche.",
+      "items": [
+        {
+          "foreign": "brave",
+          "answer_de": null
+        },
+        {
+          "foreign": "lazy",
+          "answer_de": null
+        },
+        {
+          "foreign": "friendly",
+          "answer_de": null
+        },
+        {
+          "foreign": "crazy",
+          "answer_de": null
+        },
+        {
+          "foreign": "serious",
+          "answer_de": null
+        },
+        {
+          "foreign": "patient",
+          "answer_de": null
+        },
+        {
+          "foreign": "helpful",
+          "answer_de": null
+        },
+        {
+          "foreign": "cooperative",
+          "answer_de": null
+        },
+        {
+          "foreign": "angry",
+          "answer_de": null
+        },
+        {
+          "foreign": "safe adventure",
+          "answer_de": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Woerter im Lueckentext",
+      "instruction": "Setze die passenden Woerter aus der Wortliste in die Luecken ein.",
+      "word_bank": ["helpful", "brave", "adventurous", "friendly", "crazy"],
+      "cloze_text_foreign": "She is very ______________ when we have problems. Sometimes she acts ______________ but always in a funny way. Our group is ______________; we support each other. Being ______________ means trying new things without fear. Everyone likes her because she is so ______________.",
+      "gaps": [
+        {
+          "foreign": "helpful",
+          "hint_de": "hilfsbereit",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "crazy",
+          "hint_de": "verrueckt",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "friendly",
+          "hint_de": "freundlich",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "brave",
+          "hint_de": "tapfer, mutig",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "adventurous",
+          "hint_de": "abenteuerlustig",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Uebersetze die Saetze",
+      "instruction": "Uebersetze die folgenden Saetze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Er ist ein guter Zuhörer und immer hilfsbereit.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Unsere Gruppe ist freundlich und kooperativ.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Manchmal ist sie verrueckt, aber auch tapfer.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

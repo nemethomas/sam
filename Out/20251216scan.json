@@ -1,0 +1,110 @@
+{
+  "title": "Class vocabulary Unit 4",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Uebersetze die Woerter",
+      "instruction": "Uebersetze die folgenden Woerter ins Deutsche.",
+      "items": [
+        {
+          "foreign": "celebrate a festival",
+          "answer_de": "ein Fest feiern"
+        },
+        {
+          "foreign": "join the carnival",
+          "answer_de": "bei der Fasnacht mitmachen"
+        },
+        {
+          "foreign": "decoration",
+          "answer_de": "Dekoration"
+        },
+        {
+          "foreign": "religious procession",
+          "answer_de": "religioeser Umzug"
+        },
+        {
+          "foreign": "float",
+          "answer_de": "Fasnachtswagen"
+        },
+        {
+          "foreign": "wear a mask and a costume",
+          "answer_de": "eine Maske und ein Kostuem tragen"
+        },
+        {
+          "foreign": "lantern",
+          "answer_de": "Laterne"
+        },
+        {
+          "foreign": "bonfire",
+          "answer_de": "Freudenfeuer"
+        },
+        {
+          "foreign": "fireworks (pl.)",
+          "answer_de": "Feuerwerk"
+        },
+        {
+          "foreign": "highlight",
+          "answer_de": "Hoehepunkt"
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Woerter im Lueckentext",
+      "instruction": "Setze die passenden Woerter aus der Wortbank in die Luecken ein.",
+      "word_bank": [
+        "float",
+        "fireworks",
+        "lantern",
+        "celebrate a festival",
+        "decoration"
+      ],
+      "cloze_text_foreign": "Every year, people __________ a festival with many colorful decorations. They watch the __________ and light a __________ in the evening. One nice part is the decorated __________ in the parade. Finally, the sky is bright with __________.",
+      "gaps": [
+        {
+          "foreign": "celebrate a festival",
+          "hint_de": "ein Fest feiern",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "decoration",
+          "hint_de": "Dekoration",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lantern",
+          "hint_de": "Laterne",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "float",
+          "hint_de": "Fasnachtswagen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "fireworks",
+          "hint_de": "Feuerwerk",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Uebersetze die Saetze",
+      "instruction": "Uebersetze die folgenden Saetze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Wir feiern ein Fest mit vielen Leuten."
+        },
+        {
+          "sentence_de": "Die Fasnachtswagen sind sehr bunt."
+        },
+        {
+          "sentence_de": "Am Abend schauen wir das Feuerwerk an."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Arbeitsblatt Vokabeln Freizeit und Hobby",
+  "target_language": "fr",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze die folgenden deutschen Wörter ins Französische.",
+      "items": [
+        { "word_de": "tanzen", "answer_foreign": null },
+        { "word_de": "das Velo, das Fahrrad", "answer_foreign": null },
+        { "word_de": "lesen", "answer_foreign": null },
+        { "word_de": "ein Computer", "answer_foreign": null },
+        { "word_de": "shoppen", "answer_foreign": null },
+        { "word_de": "das Mädchen, die Tochter", "answer_foreign": null },
+        { "word_de": "schwimmen", "answer_foreign": null },
+        { "word_de": "Musik hören", "answer_foreign": null }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Fülle die Lücken im französischen Text mit den passenden Wörtern aus der Wortliste.",
+      "word_bank": [
+        "la guitare",
+        "le ski",
+        "jouer dehors",
+        "nager",
+        "lire",
+        "danser"
+      ],
+      "cloze_text_foreign": "J’aime beaucoup _____________ (Musikinstrument spielen). En hiver, je fais _____________ (Ski). Le week-end, j’aime _____________ (draußen spielen) avec mes amis. Dans la piscine, je préfère _____________ (schwimmen). Le soir, j’adore _____________ (lesen) un livre. Et parfois, nous aimons _____________ (tanzen) en fête.",
+      "gaps": [
+        {
+          "foreign": "la guitare",
+          "hint_de": "die Gitarre spielen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "le ski",
+          "hint_de": "der Ski",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "jouer dehors",
+          "hint_de": "draußen spielen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "nager",
+          "hint_de": "schwimmen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lire",
+          "hint_de": "lesen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "danser",
+          "hint_de": "tanzen",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze die folgenden deutschen Sätze ins Französische.",
+      "items": [
+        {
+          "sentence_de": "Ich höre gerne Musik und spiele Gitarre.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Mein Hobby ist Schwimmen und Lesen.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Freunde treffen macht mir viel Spaß.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

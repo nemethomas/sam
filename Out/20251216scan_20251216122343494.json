@@ -1,0 +1,107 @@
+{
+  "title": "Class vocabulary Unit 4",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Uebersetze die folgenden englischen Woerter ins Deutsche.",
+      "items": [
+        {
+          "foreign": "decorate",
+          "answer_de": null
+        },
+        {
+          "foreign": "bonfire",
+          "answer_de": null
+        },
+        {
+          "foreign": "join the carnival",
+          "answer_de": null
+        },
+        {
+          "foreign": "religious procession",
+          "answer_de": null
+        },
+        {
+          "foreign": "lantern",
+          "answer_de": null
+        },
+        {
+          "foreign": "Christmas present",
+          "answer_de": null
+        },
+        {
+          "foreign": "stay up late",
+          "answer_de": null
+        },
+        {
+          "foreign": "spectacular",
+          "answer_de": null
+        },
+        {
+          "foreign": "paint your face",
+          "answer_de": null
+        },
+        {
+          "foreign": "float",
+          "answer_de": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Woerter im Lueckentext",
+      "instruction": "Setze die passenden Woerter aus der Wortliste in die Luecken ein.",
+      "word_bank": ["lantern", "bonfire", "float", "join the carnival", "decorate"],
+      "cloze_text_foreign": "We often __________ for the spring festival. During the parade, a big __________ is visible. Children carry a __________ at night. People wear costumes and __________ the streets. We also __________ our houses beautifully.",
+      "gaps": [
+        {
+          "foreign": "join the carnival",
+          "hint_de": "bei der Fasnacht mitmachen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "float",
+          "hint_de": "Fasnachtswagen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lantern",
+          "hint_de": "Laterne",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "wear a mask and a costume",
+          "hint_de": "eine Maske und ein Kostuerm tragen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "decorate",
+          "hint_de": "Dekoration",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Uebersetze die Saetze",
+      "instruction": "Uebersetze die folgenden deutschen Saetze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Wir feiern ein Fest im Fruehling.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Die Kinder tragen Masken und Kostueme.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Am Abend gibt es ein grosses Freudenfeuer.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

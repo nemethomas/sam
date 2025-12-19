@@ -1,0 +1,106 @@
+{
+  "title": "Arbeitsblatt Französisch – Vokabeln Freizeit und Schule",
+  "target_language": "fr",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze die folgenden deutschen Wörter ins Französische.",
+      "items": [
+        {
+          "word_de": "das Fernsehen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "tanzen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "das Hobby",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "der Knabe",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "schwimmen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "das Fahrrad",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "die Zahl",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Freunde treffen",
+          "answer_foreign": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Fülle die Lücken im französischen Text mit den richtigen Wörtern aus der Wortbank.",
+      "word_bank": [
+        "le foot",
+        "un ordinateur",
+        "lire",
+        "faire du shopping",
+        "la guitare",
+        "danser"
+      ],
+      "cloze_text_foreign": "Le week-end, j'aime _____________ avec mes amis. \nÀ la maison, j’utilise _____________ pour travailler. \nLe soir, je préfère _____________ un livre avant de dormir. \nLe samedi, nous allons souvent _____________ en ville. \nMon ami joue _____________ tous les jours après l'école.",
+      "gaps": [
+        {
+          "foreign": "jouer au foot",
+          "hint_de": "Fußball spielen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "un ordinateur",
+          "hint_de": "ein Computer",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lire",
+          "hint_de": "lesen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "faire du shopping",
+          "hint_de": "shoppen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "la guitare",
+          "hint_de": "die Gitarre",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze die folgenden deutschen Sätze ins Französische.",
+      "items": [
+        {
+          "sentence_de": "Ich spiele gern Fußball mit Freunden.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Wir hören gerne Musik und tanzen dazu.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Mein Hobby ist das Lesen von Büchern.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

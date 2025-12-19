@@ -1,0 +1,103 @@
+{
+  "title": "Vokabellernen - Unité 3",
+  "target_language": "fr",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze folgende 8 Wörter ins Französische.",
+      "items": [
+        {
+          "word_de": "der Fernseher",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "tanzen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "das Basteln",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "das Velo, das Fahrrad",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "lesen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "schwimmen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "die Gitarre, Gitarre spielen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "ein Computer",
+          "answer_foreign": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Setze die fehlenden Wörter aus der Wortbank in die Lücken ein.",
+      "word_bank": [
+        "danser",
+        "nager",
+        "écouter de la musique",
+        "faire la cuisine",
+        "lire",
+        "le foot"
+      ],
+      "cloze_text_foreign": "J'aime __________ parce que c'est amusant.\nLe dimanche, je préfère __________ au parc.\nLe soir, j'aime __________ dans ma chambre.\nMa mère adore __________ pour toute la famille.\nLe matin, j'aime __________ avant d'aller à l'école.",
+      "gaps": [
+        {
+          "foreign": "danser",
+          "hint_de": "tanzen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "le foot",
+          "hint_de": "Fußball (Spiel), Fußball spielen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "écouter de la musique",
+          "hint_de": "Musik hören",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "faire la cuisine",
+          "hint_de": "kochen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lire",
+          "hint_de": "lesen",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze folgende Sätze ins Französische.",
+      "items": [
+        {
+          "sentence_de": "Ich spiele gerne Gitarre."
+        },
+        {
+          "sentence_de": "Wir gehen oft Fahrrad fahren."
+        },
+        {
+          "sentence_de": "Freunde treffen macht Spaß."
+        }
+      ]
+    }
+  ]
+}

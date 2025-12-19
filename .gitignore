@@ -1,0 +1,10 @@
+
+__pycache__/
+*.pyc
+
+# Secrets
+OPENAI_API_KEY.env
+*.env
+
+# Local config
+config.toml

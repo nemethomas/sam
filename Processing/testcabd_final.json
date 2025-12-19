@@ -1,0 +1,53 @@
+{
+  "title": "Class vocabulary Unit 4",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze die folgenden deutschen Wörter ins Englische.",
+      "items": [
+        { "word_de": "eine Maske und ein Kostüm tragen", "answer_foreign": null },
+        { "word_de": "Dekoaration", "answer_foreign": null },
+        { "word_de": "Feuerwerk", "answer_foreign": null },
+        { "word_de": "Frühlingsfest", "answer_foreign": null },
+        { "word_de": "Weihnachtsgeschenk", "answer_foreign": null },
+        { "word_de": "Volksmusik, Folkmusik", "answer_foreign": null },
+        { "word_de": "lange aufbleiben", "answer_foreign": null },
+        { "word_de": "eine Feier organisieren", "answer_foreign": null }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Fülle die Lücken im englischen Text mit den passenden Wörtern aus der Wortliste.",
+      "word_bank": [
+        "lantern",
+        "bonfire",
+        "celebrate a festival",
+        "religious procession",
+        "join the carnival",
+        "paint your face"
+      ],
+      "cloze_text_foreign": "Every year, people __________ many different festivals. Children often __________ and wear colorful costumes. They carry a __________ through the streets. At night, everyone enjoys a big __________ while watching fireworks. Some like to __________ and show their artistic skills.",
+      "gaps": [
+        { "foreign": "celebrate a festival", "hint_de": "ein Fest feiern", "blank": "_____________" },
+        { "foreign": "join the carnival", "hint_de": "bei der Fasnacht mitmachen", "blank": "_____________" },
+        { "foreign": "religious procession", "hint_de": "religiöser Umzug", "blank": "_____________" },
+        { "foreign": "bonfire", "hint_de": "Freudenfeuer", "blank": "_____________" },
+        { "foreign": "paint your face", "hint_de": "das Gesicht bemalen", "blank": "_____________" }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze die folgenden deutschen Sätze ins Englische.",
+      "items": [
+        { "sentence_de": "Das Fest dauert den ganzen Tag.", "answer_foreign": null },
+        { "sentence_de": "Wir tragen eine Maske und Kostüme.", "answer_foreign": null },
+        { "sentence_de": "Viele Menschen feiern zusammen.", "answer_foreign": null }
+      ]
+    }
+  ]
+}

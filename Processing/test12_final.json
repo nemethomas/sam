@@ -1,0 +1,106 @@
+{
+  "title": "Class Vocabulary Unit 4",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze die folgenden acht Wörter ins Englische.",
+      "items": [
+        {
+          "word_de": "Feuerwerk",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Weihnachtsgeschenk",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Volksmusik",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "historischer Anlass",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Maske",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Freudenfeuer",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Frühlingsfest",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Dekoration",
+          "answer_foreign": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Fülle die Lücken im englischen Text mit den passenden Wörtern aus der Wortliste.",
+      "word_bank": [
+        "celebrate a festival",
+        "join the carnival",
+        "bonfire",
+        "lantern",
+        "watch the parade",
+        "decorate"
+      ],
+      "cloze_text_foreign": "People __________ a festival to have fun.\nMany __________ in the streets during the event.\nChildren carry a __________ when it gets dark.\nPeople __________ their houses with lights and flowers.\nEveryone loves to __________ the parade in the city.",
+      "gaps": [
+        {
+          "foreign": "celebrate a festival",
+          "hint_de": "ein Fest feiern",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "join the carnival",
+          "hint_de": "bei der Fasnacht mitmachen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "bonfire",
+          "hint_de": "Freudenfeuer",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lantern",
+          "hint_de": "Laterne",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "decorate",
+          "hint_de": "Dekoration",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze die folgenden drei Sätze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Das Fest dauert den ganzen Tag.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Wir malen unsere Gesichter bunt an.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Viele Menschen kommen zusammen, um zu feiern.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

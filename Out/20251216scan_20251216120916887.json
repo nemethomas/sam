@@ -1,0 +1,113 @@
+{
+  "title": "Class vocabulary Unit 4",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Uebersetze die folgenden englischen Woerter ins Deutsche.",
+      "items": [
+        {
+          "foreign": "decorate",
+          "answer_de": null
+        },
+        {
+          "foreign": "fireworks",
+          "answer_de": null
+        },
+        {
+          "foreign": "join the carnival",
+          "answer_de": null
+        },
+        {
+          "foreign": "paint your face",
+          "answer_de": null
+        },
+        {
+          "foreign": "spring festival",
+          "answer_de": null
+        },
+        {
+          "foreign": "celebrate a festival",
+          "answer_de": null
+        },
+        {
+          "foreign": "bonfire",
+          "answer_de": null
+        },
+        {
+          "foreign": "table",
+          "answer_de": null
+        },
+        {
+          "foreign": "historical event",
+          "answer_de": null
+        },
+        {
+          "foreign": "wear a mask and a costume",
+          "answer_de": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Woerter im Lueckentext",
+      "instruction": "Setze die passenden Woerter aus der Wortliste in die Luecken ein.",
+      "word_bank": [
+        "join the carnival",
+        "bonfire",
+        "fireworks",
+        "spring festival",
+        "paint your face"
+      ],
+      "cloze_text_foreign": "Every year, people ______________ at the big event. They light a ______________ and watch ______________ in the sky. The ______________ is very popular in this area. Many kids like to ______________ for fun.",
+      "gaps": [
+        {
+          "foreign": "join the carnival",
+          "hint_de": "am Karneval teilnehmen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "bonfire",
+          "hint_de": "Freudenfeuer",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "fireworks",
+          "hint_de": "Feuerwerk",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "spring festival",
+          "hint_de": "Fruhlingsfest",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "paint your face",
+          "hint_de": "das Gesicht bemalen",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Uebersetze die Saetze",
+      "instruction": "Uebersetze die folgenden deutschen Saetze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Wir feiern das Fruehlingsfest im April.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Viele Menschen tragen eine Maske und ein Kostuem.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Das Feuerwerk ist sehr spektakulaer.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}
