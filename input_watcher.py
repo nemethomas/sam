@@ -65,8 +65,14 @@ class PdfHandler(FileSystemEventHandler):
                 print(f"⏭️  Datei nicht bereit/weg/timeout: {path}")
                 return
 
-            self.on_pdf(path)
-            self._done.add(path)
+            try:
+                self.on_pdf(path)
+                self._done.add(path)
+            except Exception as e:
+                print(f"❌ Fehler bei Verarbeitung von {path}: {e}")
+                import traceback
+                traceback.print_exc()
+                # Datei NICHT zu _done hinzufügen, damit sie bei Bedarf erneut verarbeitet werden kann
 
         finally:
             self._in_progress.discard(path)

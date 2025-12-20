@@ -1,5 +1,5 @@
 {
-  "title": "Arbeitsblatt Französisch: Freizeit und Hobby",
+  "title": "Arbeitsblatt Unité 3",
   "target_language": "fr",
   "instructions_language": "de",
   "chapters": [
@@ -8,44 +8,98 @@
       "title": "Übersetze die Wörter",
       "instruction": "Übersetze die folgenden deutschen Wörter ins Französische.",
       "items": [
-        {"word_de": "der Fernseher", "answer_foreign": null},
-        {"word_de": "tanzen", "answer_foreign": null},
-        {"word_de": "das Velo, das Fahrrad", "answer_foreign": null},
-        {"word_de": "lesen", "answer_foreign": null},
-        {"word_de": "shoppen", "answer_foreign": null},
-        {"word_de": "ein Computer", "answer_foreign": null},
-        {"word_de": "das Spielkonsole", "answer_foreign": null},
-        {"word_de": "Musik hören", "answer_foreign": null}
+        {
+          "word_de": "lesen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "tanzen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "die Freizeitbeschäftigung",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "das Fahrrad",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Musik hören",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "ein Tier",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "shoppen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Freunde treffen",
+          "answer_foreign": null
+        }
       ]
     },
     {
       "id": "fill_gaps",
       "title": "Wörter im Lückentext",
-      "instruction": "Fülle die Lücken im französischen Text mit den passenden Wörtern aus der Wortliste.",
+      "instruction": "Setze die richtigen Wörter aus der Wortbank in die Lücken im französischen Text ein.",
       "word_bank": [
-        "le foot",
-        "la guitare",
-        "nager",
-        "faire du shopping",
-        "le ski"
+        "la musique",
+        "la télé",
+        "danser",
+        "un ordinateur",
+        "le vélo",
+        "lire"
       ],
-      "cloze_text_foreign": "Le week-end, j'aime _____________ au parc avec mes amis. Le dimanche, je joue de _____________ chez moi. En hiver, je préfère _____________. Parfois, je vais _____________ avec ma mère. Le mercredi, j'adore _____________ à la piscine.",
+      "cloze_text_foreign": "J'aime écouter _______________. Je regarde souvent _______________. Le weekend, je préfère _______________ avec mes amis. Pour aller à l'école, je prends _______________. Le soir, j'aime _______________ un bon livre.",
       "gaps": [
-        {"foreign": "jouer au foot", "hint_de": "Fußball spielen", "blank": "_____________"},
-        {"foreign": "jouer de la guitare", "hint_de": "Gitarre spielen", "blank": "_____________"},
-        {"foreign": "faire du ski", "hint_de": "Ski fahren", "blank": "_____________"},
-        {"foreign": "faire du shopping", "hint_de": "shoppen", "blank": "_____________"},
-        {"foreign": "nager", "hint_de": "schwimmen", "blank": "_____________"}
+        {
+          "foreign": "la musique",
+          "hint_de": "Musik hören",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "la télé",
+          "hint_de": "der Fernseher",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "danser",
+          "hint_de": "tanzen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "le vélo",
+          "hint_de": "das Fahrrad",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "lire",
+          "hint_de": "lesen",
+          "blank": "_____________"
+        }
       ]
     },
     {
       "id": "translate_sentences",
       "title": "Übersetze die Sätze",
-      "instruction": "Übersetze die folgenden Sätze ins Französische.",
+      "instruction": "Übersetze die folgenden deutschen Sätze ins Französische.",
       "items": [
-        {"sentence_de": "Ich spiele gerne draußen mit meinen Freunden.", "answer_foreign": null},
-        {"sentence_de": "Mein Hobby ist Musik hören und tanzen.", "answer_foreign": null},
-        {"sentence_de": "Im Winter fahre ich oft Ski mit meiner Familie.", "answer_foreign": null}
+        {
+          "sentence_de": "Ich spiele gerne Gitarre in meiner Freizeit.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Wir gehen oft schwimmen am Wochenende.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Mein Hobby ist Fahrrad fahren.",
+          "answer_foreign": null
+        }
       ]
     }
   ]

@@ -32,6 +32,11 @@ def on_new_pdf(pdf_path: Path) -> None:
 
     print(f"📄 Neue Datei erkannt: {pdf_path}")
 
+    # ⏱️ Zusätzliche Sicherheit: 10 Sekunden warten
+    # print(f"⏳ Warte 10 Sekunden zur Sicherheit...")
+    # time.sleep(10)
+    # print(f"✅ Wartezeit abgeschlossen, starte Verarbeitung")
+
     # 🔒 SOFORT aus In wegverschieben → verhindert Re-Trigger
     processing_pdf_path = PROCESSING_DIR / pdf_path.name
     shutil.move(str(pdf_path), str(processing_pdf_path))
@@ -56,7 +61,7 @@ def on_new_pdf(pdf_path: Path) -> None:
     print(f"✅ PDF erzeugt: {output_pdf_path}")
 
     # Ausgabe auf Drucker
-    print_pdf(output_pdf_path, printer=PRINTER)
+    # print_pdf(output_pdf_path, printer=PRINTER)
 
 
 def main():
