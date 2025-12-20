@@ -1,5 +1,5 @@
 {
-  "title": "Arbeitsblatt Wortschatz Freizeit und Hobby",
+  "title": "Arbeitsblatt Vokabular – Unité 3",
   "target_language": "fr",
   "instructions_language": "de",
   "chapters": [
@@ -8,84 +8,34 @@
       "title": "Übersetze die Wörter",
       "instruction": "Übersetze die folgenden deutschen Wörter ins Französische.",
       "items": [
-        {
-          "word_de": "lesen",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "tanzen",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "das Fahrrad",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "das Klavier",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "schwimmen",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "Freund / Freundin treffen",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "den Fernseher",
-          "answer_foreign": null
-        },
-        {
-          "word_de": "kochen",
-          "answer_foreign": null
-        }
+        {"word_de": "das Velo, das Fahrrad", "answer_foreign": null},
+        {"word_de": "tanzen", "answer_foreign": null},
+        {"word_de": "das Fernsehen", "answer_foreign": null},
+        {"word_de": "lesen", "answer_foreign": null},
+        {"word_de": "Freunde / Freundinnen treffen", "answer_foreign": null},
+        {"word_de": "ein Computer", "answer_foreign": null},
+        {"word_de": "Musik hören", "answer_foreign": null},
+        {"word_de": "schwimmen", "answer_foreign": null}
       ]
     },
     {
       "id": "fill_gaps",
       "title": "Wörter im Lückentext",
-      "instruction": "Fülle die Lücken im französischen Text mit den passenden Wörtern. Verwende die Wörter aus der Wortliste.",
+      "instruction": "Fülle die Lücken mit den passenden Wörtern aus der Wortliste.",
       "word_bank": [
-        "un ordinateur",
-        "la guitare",
+        "danser",
+        "lire",
+        "la télé",
         "faire du shopping",
-        "écouter de la musique",
-        "nager",
-        "danser"
+        "écouter de la musique"
       ],
-      "cloze_text_foreign": "J'aime utiliser _____________ pour travailler. Le weekend, je préfère _____________ avec mes amis. Aussi, j'adore _____________ pour me détendre. Nous aimons _____________ ensemble à la fête. Parfois, je vais _____________ à la piscine. Ma sœur veut toujours _____________ au centre commercial.",
+      "cloze_text_foreign": "J'aime ______________ le samedi. Le dimanche, je préfère ______________ un livre. Le soir, je regarde ______________ avec mes amis. Parfois, on va ______________ au centre commercial. Pendant ce temps, ma sœur aime ______________.",
       "gaps": [
-        {
-          "foreign": "un ordinateur",
-          "hint_de": "ein Computer",
-          "blank": "_____________"
-        },
-        {
-          "foreign": "rencontrer des amis",
-          "hint_de": "Freunde/Freundinnen treffen",
-          "blank": "_____________"
-        },
-        {
-          "foreign": "écouter de la musique",
-          "hint_de": "Musik hören",
-          "blank": "_____________"
-        },
-        {
-          "foreign": "danser",
-          "hint_de": "tanzen",
-          "blank": "_____________"
-        },
-        {
-          "foreign": "nager",
-          "hint_de": "schwimmen",
-          "blank": "_____________"
-        },
-        {
-          "foreign": "faire du shopping",
-          "hint_de": "shoppen",
-          "blank": "_____________"
-        }
+        {"foreign": "danser", "hint_de": "tanzen", "blank": "_____________"},
+        {"foreign": "lire", "hint_de": "lesen", "blank": "_____________"},
+        {"foreign": "la télé", "hint_de": "das Fernsehen", "blank": "_____________"},
+        {"foreign": "faire du shopping", "hint_de": "shoppen", "blank": "_____________"},
+        {"foreign": "écouter de la musique", "hint_de": "Musik hören", "blank": "_____________"}
       ]
     },
     {
@@ -93,18 +43,9 @@
       "title": "Übersetze die Sätze",
       "instruction": "Übersetze die folgenden deutschen Sätze ins Französische.",
       "items": [
-        {
-          "sentence_de": "Ich spiele gern Gitarre in meiner Freizeit.",
-          "answer_foreign": null
-        },
-        {
-          "sentence_de": "Wir gehen oft schwimmen im Sommer.",
-          "answer_foreign": null
-        },
-        {
-          "sentence_de": "Freunde treffen macht viel Spaß.",
-          "answer_foreign": null
-        }
+        {"sentence_de": "Ich fahre gern Fahrrad in der Freizeit.", "answer_foreign": null},
+        {"sentence_de": "Wir treffen unsere Freunde am Wochenende.", "answer_foreign": null},
+        {"sentence_de": "Sie hört oft Musik und liest Bücher.", "answer_foreign": null}
       ]
     }
   ]

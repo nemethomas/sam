@@ -20,7 +20,7 @@ if not OPENAI_API_KEY:
     raise RuntimeError("OPENAI_API_KEY nicht gesetzt")
 
 # === Pfad zum Prompt-Text ===
-PROMPT_FILE = BASE_DIR / "promt.txt"
+PROMPT_FILE = BASE_DIR / "ueb_voci_promt.txt"
 
 
 def run_prompt_with_file(file_id: str, model: str = "gpt-4.1-mini") -> str:

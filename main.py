@@ -6,7 +6,7 @@ import tomllib
 from input_watcher import start_pdf_watcher
 from openaiup import upload_pdf_to_openai
 from openaipromt import run_prompt_with_file
-from json2pdf import json_to_pdf  
+from ueb_voci_json2pdf import json_to_pdf  
 import subprocess
 
 
