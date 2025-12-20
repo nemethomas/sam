@@ -1,5 +1,5 @@
 {
-  "title": "Arbeitsblatt Unité 3",
+  "title": "Arbeitsblatt Wortschatz Freizeit und Hobby",
   "target_language": "fr",
   "instructions_language": "de",
   "chapters": [
@@ -17,27 +17,27 @@
           "answer_foreign": null
         },
         {
-          "word_de": "die Freizeitbeschäftigung",
-          "answer_foreign": null
-        },
-        {
           "word_de": "das Fahrrad",
           "answer_foreign": null
         },
         {
-          "word_de": "Musik hören",
+          "word_de": "das Klavier",
           "answer_foreign": null
         },
         {
-          "word_de": "ein Tier",
+          "word_de": "schwimmen",
           "answer_foreign": null
         },
         {
-          "word_de": "shoppen",
+          "word_de": "Freund / Freundin treffen",
           "answer_foreign": null
         },
         {
-          "word_de": "Freunde treffen",
+          "word_de": "den Fernseher",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "kochen",
           "answer_foreign": null
         }
       ]
@@ -45,25 +45,30 @@
     {
       "id": "fill_gaps",
       "title": "Wörter im Lückentext",
-      "instruction": "Setze die richtigen Wörter aus der Wortbank in die Lücken im französischen Text ein.",
+      "instruction": "Fülle die Lücken im französischen Text mit den passenden Wörtern. Verwende die Wörter aus der Wortliste.",
       "word_bank": [
-        "la musique",
-        "la télé",
-        "danser",
         "un ordinateur",
-        "le vélo",
-        "lire"
+        "la guitare",
+        "faire du shopping",
+        "écouter de la musique",
+        "nager",
+        "danser"
       ],
-      "cloze_text_foreign": "J'aime écouter _______________. Je regarde souvent _______________. Le weekend, je préfère _______________ avec mes amis. Pour aller à l'école, je prends _______________. Le soir, j'aime _______________ un bon livre.",
+      "cloze_text_foreign": "J'aime utiliser _____________ pour travailler. Le weekend, je préfère _____________ avec mes amis. Aussi, j'adore _____________ pour me détendre. Nous aimons _____________ ensemble à la fête. Parfois, je vais _____________ à la piscine. Ma sœur veut toujours _____________ au centre commercial.",
       "gaps": [
         {
-          "foreign": "la musique",
-          "hint_de": "Musik hören",
+          "foreign": "un ordinateur",
+          "hint_de": "ein Computer",
           "blank": "_____________"
         },
         {
-          "foreign": "la télé",
-          "hint_de": "der Fernseher",
+          "foreign": "rencontrer des amis",
+          "hint_de": "Freunde/Freundinnen treffen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "écouter de la musique",
+          "hint_de": "Musik hören",
           "blank": "_____________"
         },
         {
@@ -72,13 +77,13 @@
           "blank": "_____________"
         },
         {
-          "foreign": "le vélo",
-          "hint_de": "das Fahrrad",
+          "foreign": "nager",
+          "hint_de": "schwimmen",
           "blank": "_____________"
         },
         {
-          "foreign": "lire",
-          "hint_de": "lesen",
+          "foreign": "faire du shopping",
+          "hint_de": "shoppen",
           "blank": "_____________"
         }
       ]
@@ -89,15 +94,15 @@
       "instruction": "Übersetze die folgenden deutschen Sätze ins Französische.",
       "items": [
         {
-          "sentence_de": "Ich spiele gerne Gitarre in meiner Freizeit.",
+          "sentence_de": "Ich spiele gern Gitarre in meiner Freizeit.",
           "answer_foreign": null
         },
         {
-          "sentence_de": "Wir gehen oft schwimmen am Wochenende.",
+          "sentence_de": "Wir gehen oft schwimmen im Sommer.",
           "answer_foreign": null
         },
         {
-          "sentence_de": "Mein Hobby ist Fahrrad fahren.",
+          "sentence_de": "Freunde treffen macht viel Spaß.",
           "answer_foreign": null
         }
       ]

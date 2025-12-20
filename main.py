@@ -4,10 +4,11 @@ import shutil
 import tomllib 
 
 from input_watcher import start_pdf_watcher
-from output_printer import print_pdf
 from openaiup import upload_pdf_to_openai
 from openaipromt import run_prompt_with_file
 from json2pdf import json_to_pdf  
+import subprocess
+
 
 # Basisverzeichnis = Ordner, in dem main.py liegt
 BASE_DIR = Path(__file__).resolve().parent
@@ -22,6 +23,22 @@ PRINTER = cfg["printer"]["name"]
 WAIT_SECONDS = int(cfg["watcher"]["wait_seconds"])
 PROCESSING_DIR = BASE_DIR / "Processing"
 OUTPUT_DIR = BASE_DIR / "Out"
+
+
+def print_pdf(pdf_path: Path, printer: str) -> None:
+    """
+    Druckt ein PDF über macOS CUPS (lp).
+    """
+    if not pdf_path.exists():
+        print(f"❌ Datei nicht gefunden: {pdf_path}")
+        return
+
+    print(f"🖨️ Drucken: {pdf_path}")
+    subprocess.run(
+        ["/usr/bin/lp", "-d", printer, str(pdf_path)],
+        check=False
+    )
+
 
 
 def on_new_pdf(pdf_path: Path) -> None:
@@ -61,7 +78,7 @@ def on_new_pdf(pdf_path: Path) -> None:
     print(f"✅ PDF erzeugt: {output_pdf_path}")
 
     # Ausgabe auf Drucker
-    # print_pdf(output_pdf_path, printer=PRINTER)
+    print_pdf(output_pdf_path, printer=PRINTER)
 
 
 def main():
