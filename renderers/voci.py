@@ -1,3 +1,6 @@
+
+from pathlib import Path
+# from renderers.voci import json_to_pdf
 import json
 from pathlib import Path
 
@@ -150,3 +153,9 @@ if __name__ == "__main__":
 
     json_to_pdf(input_json, output_pdf)
     print(f"OK: {output_pdf}")
+
+
+
+
+def render(json_path: Path, output_pdf: Path) -> None:
+    json_to_pdf(json_path, output_pdf)
