@@ -1,0 +1,106 @@
+{
+  "title": "Arbeitsblatt Unit 5 - Sport und Wetter",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze die folgenden deutschen Wörter ins Englische.",
+      "items": [
+        {
+          "word_de": "springen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "gewinnen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "rennen",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Wettbewerb",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Üben",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Feiern",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Das Wetter war ...",
+          "answer_foreign": null
+        },
+        {
+          "word_de": "Storm",
+          "answer_foreign": null
+        }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Setze die fehlenden Wörter aus der Wortbank an die richtigen Stellen im Lückentext ein.",
+      "word_bank": [
+        "sports day",
+        "catch",
+        "throw",
+        "climb",
+        "relax",
+        "competition"
+      ],
+      "cloze_text_foreign": "On the _____________, many people play games together. You can _____________ the ball to your friend. Sometimes you need to _____________ a wall to win. After the _____________, we like to _____________. Sport is fun and exciting.",
+      "gaps": [
+        {
+          "foreign": "sports day",
+          "hint_de": "Sporttag, Sportfest",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "throw",
+          "hint_de": "werfen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "climb",
+          "hint_de": "klettern",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "competition",
+          "hint_de": "Wettbewerb",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "relax",
+          "hint_de": "sich entspannen",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze diese deutschen Sätze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Wir feiern nach dem Staffellauf.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Das Wetter war gestern sehr schlecht.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Er kann sehr schnell sprinten.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

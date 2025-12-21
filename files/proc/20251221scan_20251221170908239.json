@@ -1,0 +1,87 @@
+{
+  "title": "Arbeitsblatt Unit 5",
+  "target_language": "en",
+  "instructions_language": "de",
+  "chapters": [
+    {
+      "id": "translate_words",
+      "title": "Übersetze die Wörter",
+      "instruction": "Übersetze die ausgewählten deutschen Wörter ins Englische.",
+      "items": [
+        { "word_de": "rennen", "answer_foreign": null },
+        { "word_de": "Wettbewerb", "answer_foreign": null },
+        { "word_de": "springen", "answer_foreign": null },
+        { "word_de": "Wettervorhersage", "answer_foreign": null },
+        { "word_de": "feiern", "answer_foreign": null },
+        { "word_de": "gehen", "answer_foreign": null },
+        { "word_de": "ein Spiel spielen", "answer_foreign": null },
+        { "word_de": "verlieren", "answer_foreign": null }
+      ]
+    },
+    {
+      "id": "fill_gaps",
+      "title": "Wörter im Lückentext",
+      "instruction": "Setze die passenden Wörter aus der Wortliste in die Lücken ein.",
+      "word_bank": [
+        "sports day",
+        "practise",
+        "catch",
+        "relay race",
+        "kick",
+        "jump"
+      ],
+      "cloze_text_foreign": "Today is the ____________ at school. We will ____________ together to get better. In the ____________, you have to pass the baton. You can ____________ the ball to a teammate. If you want to score, you will ____________ the ball very hard. Sometimes we ____________ over small obstacles.",
+      "gaps": [
+        {
+          "foreign": "sports day",
+          "hint_de": "Sporttag, Sportfest",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "practise",
+          "hint_de": "üben",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "relay race",
+          "hint_de": "Staffellauf",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "catch",
+          "hint_de": "fangen",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "kick",
+          "hint_de": "(mit dem Fuss) treten",
+          "blank": "_____________"
+        },
+        {
+          "foreign": "jump",
+          "hint_de": "springen; Sprung",
+          "blank": "_____________"
+        }
+      ]
+    },
+    {
+      "id": "translate_sentences",
+      "title": "Übersetze die Sätze",
+      "instruction": "Übersetze die Sätze ins Englische.",
+      "items": [
+        {
+          "sentence_de": "Am Sporttag spielen wir verschiedene Spiele.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Im Wettbewert gibt es viele spannende Rennen.",
+          "answer_foreign": null
+        },
+        {
+          "sentence_de": "Wir sollten viel üben, um besser zu werden.",
+          "answer_foreign": null
+        }
+      ]
+    }
+  ]
+}

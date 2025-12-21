@@ -1,7 +1,7 @@
 import time
 import shutil
 from pathlib import Path
-
+from infra.printing import print_pdf
 from infra.watcher import start_pdf_watcher
 from pipeline.process import process
 from settings import load_settings, BASE_DIR
@@ -50,6 +50,15 @@ def on_new_pdf(pdf_path: Path, cfg: dict) -> None:
             output_dir=out_dir,
         )
         print(f"✅ Fertig: {out_pdf_path}")
+
+        printer = cfg.get("printer", {}).get("name")
+        auto_print = bool(cfg.get("printer", {}).get("auto_print", True))
+
+        if auto_print and printer:
+            print_pdf(out_pdf_path, printer=printer)
+        else:
+            print("ℹ️ Auto-Print aus oder kein Printer konfiguriert – PDF bleibt im Out-Ordner.")
+
     except Exception as e:
         print(f"❌ Fehler: {e}")
 
