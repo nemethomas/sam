@@ -9,6 +9,8 @@ OPENAI_API_KEY.env
 config.toml
 
 # Output directories - Ordner bleiben erhalten, Dateien werden ignoriert
-In/*
-Out/*
-Processing/*
+in/*
+out/*
+proc/*
+
+!.gitkeep
