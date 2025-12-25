@@ -1,15 +1,18 @@
 from pathlib import Path
-from pipeline.openai import upload_pdf_to_openai
-from pipeline.openai import run_prompt_with_file
-from pipeline.classify import classify
+from pipeline.openai import upload_pdf_to_openai, run_prompt_with_file
+from pipeline.classify import classify_file_id
 from pipeline.registry import REGISTRY
 
 def process(pdf_path: Path, output_dir: Path) -> Path:
-    doc_type = classify(pdf_path)
-    entry = REGISTRY[doc_type]
-
+    # 1) Upload einmal
     file_id = upload_pdf_to_openai(pdf_path)
 
+    # 2) Klassifizieren anhand des hochgeladenen Files
+    doc_type = classify_file_id(file_id)
+    print(f"🏷️ classify: {doc_type}")
+    entry = REGISTRY[doc_type]
+
+    # 3) Prompt aus Registry laufen lassen
     result_text = run_prompt_with_file(
         file_id=file_id,
         prompt_file=entry["prompt"]

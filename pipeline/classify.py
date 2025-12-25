@@ -1,8 +1,15 @@
-
+from pipeline.openai import run_prompt_with_file
 from pathlib import Path
 
-def classify(pdf_path: Path) -> str:
-    name = pdf_path.name.lower()
-    if "voci" in name or "vokabel" in name:
-        return "voci"
-    return "voci"
+CLASSIFY_PROMPT_FILE = Path("prompts") / "classify.txt"
+
+def classify_file_id(file_id: str) -> str:
+    result = run_prompt_with_file(
+        file_id=file_id,
+        prompt_file=CLASSIFY_PROMPT_FILE
+    ).strip().lower()
+
+    # harte Validierung (deterministisch!)
+    if result not in {"worksheet", "voci", "unknown"}:
+        return "unknown"
+    return result

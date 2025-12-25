@@ -13,4 +13,7 @@ files/in/*
 files/out/*
 files/proc/*
 
+*.pdf
+*.json
+
 !.gitkeep
