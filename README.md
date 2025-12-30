@@ -1,6 +1,6 @@
 # sam
 
-Erstellt Arbeitsblätter, korrigiert Prüfungen mit Hilfe von AI
+Erstellt Arbeitsblätter aufgrund von Schulunterlagen und korrigiert Prüfungen mit Hilfe von AI
 
 
 ---
@@ -15,8 +15,8 @@ Selbständigkeit
 
 ### Key Features
 
-✅ **Arbeitsblätter erstellen** - Grounded in peer-reviewed research (Temporal Motivation Theory, Motivational Interviewing, Implementation Intentions)  
-✅ **Prüfungen Korrigieren** - Warm, non-judgmental tone based on Rogers' Person-Centered Therapy  
+✅ **Arbeitsblätter aus Wortlisten** - Als Input eignen sich Wortlisten oder Schulstoff im allgemeinen.
+✅ **Arbeitsblätter korriergieren** - Berten von ausgefüllten Arbeitsbättern
 
 ---
 
@@ -31,8 +31,8 @@ Ziel ist es das LLM direkt auf der Hardwarekomponente zu installieren und ohne I
 
 ### Prerequisites
 - Python 3.13+
-- Brew
-- Miniconda
+- Brew ([brew.sh](https://brew.sh))
+- Miniconda ([brew.sh](https://formulae.brew.sh/cask/miniconda#default))
 - Open AI API Key ([plattform.openai.com](https://platform.openai.com/api-keys))
 
 ### Installation

@@ -1,5 +1,6 @@
 import time
 import shutil
+import traceback
 from pathlib import Path
 from infra.printing import print_pdf
 from infra.watcher import start_pdf_watcher
@@ -59,8 +60,10 @@ def on_new_pdf(pdf_path: Path, cfg: dict) -> None:
         else:
             print("ℹ️ Auto-Print aus oder kein Printer konfiguriert – PDF bleibt im Out-Ordner.")
 
+
     except Exception as e:
-        print(f"❌ Fehler: {e}")
+        print("❌ Fehler:", repr(e))
+        traceback.print_exc()   
 
 
 def main() -> None:
