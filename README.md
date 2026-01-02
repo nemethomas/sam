@@ -1,127 +1,155 @@
-# sam
+# Sam
 
-Erstellt Arbeitsblätter aufgrund von Schulunterlagen und korrigiert Prüfungen mit Hilfe von AI
+**Sam** ist ein lokales Automatisierungssystem, das aus Schulunterlagen **Arbeitsblätter generiert** und **ausgefüllte Prüfungen korrigiert** – unterstützt durch KI, aber vollständig **On-Prem steuerbar**.
 
-
----
-
-## 🎯 Project Overview
-
-Meine Kinder sind in der Mittelstufe lernen von Hand schreiben. Das Erstellen von Arebeitsblättern und korrigieren von Prüfungen erfordert viel Zeit. schreiben von Hand. Wir haben zuhause einen Scanner sowie einen Drucker als Kopiergerät Kombi. 
-
-Mensch Maschine Interface Scanner Drucker
-
-Selbständigkeit
-
-### Key Features
-
-✅ **Arbeitsblätter aus Wortlisten** - Als Input eignen sich Wortlisten oder Schulstoff im allgemeinen.
-✅ **Arbeitsblätter korriergieren** - Berten von ausgefüllten Arbeitsbättern
+Der typische Workflow:
+1. Ein Dokument wird eingescannt
+2. Sam erkennt den Dokumenttyp
+3. Die passende KI-Auswertung wird ausgeführt
+4. Das Resultat wird als PDF gerendert
+5. Optional wird das Ergebnis automatisch gedruckt
 
 ---
 
-## 🧠 AI Anbidung
-Der Prototyp spricht über API mit OpenAi, grundätzlich soll das LLM wählbar sein. 
+## ✨ Key Features
 
-Ziel ist es das LLM direkt auf der Hardwarekomponente zu installieren und ohne Internet auskommen
+✅ **Arbeitsblätter aus Wortlisten & Schulunterlagen**  
+Erzeugt strukturierte Arbeitsblätter (z. B. Vokabelprüfungen) aus einfachen Wortlisten oder PDFs.
+
+✅ **Automatische Korrektur von Prüfungen**  
+Bewertet ausgefüllte Arbeitsblätter inklusive Punktevergabe und Feedback.
+
+✅ **Deterministische Pipeline**  
+Klassifikation → Prompt → JSON → PDF – vollständig nachvollziehbar und erweiterbar.
+
+✅ **Lokaler Betrieb**  
+Keine Cloud-Abhängigkeit ausser dem LLM-API. Ideal für Schule & Zuhause.
+
+✅ **Optionaler Netzwerkdruck**  
+Fertige PDFs können automatisch auf einem Netzwerkdrucker ausgegeben werden.
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.13+
-- Brew ([brew.sh](https://brew.sh))
-- Miniconda ([brew.sh](https://formulae.brew.sh/cask/miniconda#default))
-- Open AI API Key ([plattform.openai.com](https://platform.openai.com/api-keys))
 
-### Installation
+- Python **3.13+**
+- Homebrew – https://brew.sh
+- Miniconda – https://formulae.brew.sh/cask/miniconda
+- OpenAI API Key – https://platform.openai.com/api-keys
+- Netzwerkdrucker (optional)
 
-1. **Install dependencies:**
+---
+
+## 🔧 Installation
+
+### 1. Conda-Umgebung erstellen
+
 ```bash
 conda env create -f environment.yml
-
+conda activate sam
 ```
 
-2. **Create `.env` file:**
-```bash
-cp .env.example .env
+---
+
+### 2. OpenAI API Key hinterlegen
+
+Erstelle die Datei:
+
+```
+sam/config/OPENAI_API_KEY.env
 ```
 
-3. **Add your secrets to `.env`:**
-```
+Inhalt:
+
+```env
 OPENAI_API_KEY=sk-XXX
 ```
 
+---
+
+### 3. Konfiguration erstellen
+
+Erstelle:
+
+```
+sam/config/config.toml
+```
+
+Beispiel:
+
+```toml
+[printer]
+# Name deines Netzwerkdruckers
+# Unter macOS z.B.: lpstat -p
+name = "HP_Color_LaserJet_Pro_MFP_3302__A195A7_"
+
+# Falls kein automatischer Druck gewünscht ist
+auto_print = true
+
+
+[paths]
+# Ordner, in den dein Scanner PDFs ablegt
+# Dieser Ordner wird von Sam überwacht
+watch_dir = "/Users/family/sam/files/in"
+
+
+[watcher]
+# Wartezeit (Sekunden), bis eine neue PDF als stabil gilt
+wait_seconds = 7
+```
+
+---
+
+## ▶️ Starten
+
+```bash
+python main.py
+```
+
+Sobald ein neues PDF im `watch_dir` erscheint, wird es automatisch verarbeitet.
+
+---
 
 ## 📁 Project Structure
 
-```
-
-
-sam/               
-├── config/                  
-│   ├── config.toml              # Netzwerkdrucker  
-│   ├── OPENAI_API_KEY.env
-│   ├── envoronment.yml          # Estellt die Conda Umgebung
+```text
+sam/
+├── config/
+│   ├── config.toml              # Zentrale Konfiguration
+│   ├── OPENAI_API_KEY.env       # API Key
+│   └── environment.yml          # Conda Environment
+│
 ├── files/
-│   ├── in/                      # Zielverzeichnis für Scanning ins Netzwerkverzeichnis
-│   ├── proc/
-│   ├── out/
-├── pipline/
-│   ├── classyfiy.py             # Kalassifizierung 
-│   ├── openai.py                # OpenAi Handler 
-│   ├── process.py               # Workflow
-│   ├── registry.py              # Verbindung von Promt und Render
-├── prompts
-│   ├── voci.txt
-│   ├── ...
-├── renderers
-│   ├── voci.py
-│   ├── ...
-main.py
-settings.py
-readme.md
-
+│   ├── in/                      # Scan-Eingang
+│   ├── proc/                    # Verarbeitung
+│   └── out/                     # Resultierende PDFs
+│
+├── pipeline/
+│   ├── classify.py              # Dokument-Klassifikation
+│   ├── openai.py                # OpenAI Schnittstelle
+│   ├── process.py               # Workflow-Orchestrierung
+│   └── registry.py              # Prompt ↔ Renderer Mapping
+│
+├── prompts/
+│   ├── voci.txt                 # Prompt für Vokabelprüfungen
+│   └── ...
+│
+├── renderers/
+│   ├── voci.py                  # JSON → PDF Renderer
+│   └── ...
+│
+├── main.py                      # Einstiegspunkt
+├── settings.py                  # Konfig-Lader
+└── README.md
 ```
 ---
 
+## 🧩 Erweiterbarkeit
 
-### Data Format
+- Neue Dokumenttypen → **neue Klassifikation**
+- Neue Aufgabenformate → **neuer Prompt**
+- Neue Darstellung → **neuer Renderer**
 
-```json
-{
-  "exam": {
-    "type": "voci_pruefung",
-    "title": "<<TITLE>>",
-    "unit": "<<UNIT>>",
-    "language_pair": {
-      "from": "<<FROM_LANGUAGE>>",
-      "to": "<<TO_LANGUAGE>>"
-    },
-    "max_points": <<MAX_POINTS>>
-  },
-  "parts": [
-    {
-      "id": 1,
-      "title": "Übersetze die Wörter",
-      "max_points": <<PART1_MAX>>,
-      "achieved_points": null,
-      "tasks": [
-        {
-          "id": 1,
-          "prompt": "<<DE_WORD>>",
-          "answer": "<<STUDENT_ANSWER>>",
-          "expected": [<<EXPECTED_SOLUTIONS>>],
-          "assessment": "",
-          "points": { "achieved": null, "max": 2 },
-          "comment": ""
-        }
-      ]
-    
-  }
-}    
-
-```
-
----
+Alles ist bewusst **modular** gehalten.
