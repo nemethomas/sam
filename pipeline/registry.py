@@ -14,4 +14,8 @@ REGISTRY = {
         "prompt": BASE_DIR / "prompts" / "worksheet.txt",
         "renderer": render_worksheet,
     },
+    "unknown": {
+        "prompt": BASE_DIR / "prompts" / "voci.txt",
+        "renderer": render_voci,
+    },
 }

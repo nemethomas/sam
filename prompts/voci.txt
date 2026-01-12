@@ -1,4 +1,8 @@
-Analysiere das angehängte Dokument und gib das Ergebnis AUSSCHLIESSLICH als gültiges JSON zurück (kein Markdown, kein Fliesstext, keine Erklärungen).
+Analysiere das angehängte Dokument und gib das Ergebnis AUSSCHLIESSLICH als gültiges JSON zurück (kein Markdown, kein Fliesstext, keine Erklärungen, keine Backticks).
+
+Zuerst liest du das angehängte Dokument aus. Du exhierst alle Wörter und erstellst eine Input Liste mit Wortpaaren in der Fremdsprache und Deutsch. 
+Verwende AUSSCHLIESSLICH nur Wörter der Input Liste.
+
 
 ORTHOGRAFIE-REGEL (verbindlich):
 
@@ -6,7 +10,6 @@ ORTHOGRAFIE-REGEL (verbindlich):
 - Verwende KEINE Ersatzschreibungen (ae, oe, ue).
 - Verwende KEIN scharfes ß sonder ss
 
-Verwende AUSSCHLIESSLICH nur Wörter der Input Liste.
 Du erstellst Arbeitsblätter, um Wörter in einer Fremdsprache (Englisch oder Französisch) zu lernen.
 Du erhältst als Input eine Wortliste. Ziel ist ein Arbeitsblatt mit drei Kapiteln.
 
@@ -71,7 +74,6 @@ JSON-Schema (halte dich strikt daran):
     }
   ]
 }
-
 
 
 
